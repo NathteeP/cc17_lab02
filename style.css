@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-card {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: 260px;
+    margin: 20px;
+    border: solid   2px grey;
+    border-radius: 8px;
+    
+    
+}
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+    align-items: center;
+    flex-grow: 1;
+    border-bottom: 2px grey;
+}
+.profile-pic img {
+    width: 180px;
+}
+.profile-name {
+    display : flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+.profile-name span {
+    font-size: 24px;
+}
+    
+
+.close-button {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    width: 6%;
+    height: 6%;
+}
+.notifnumbadge {
+    display: flex;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+}
+.notifnumbadge span {
+    color: white;
+}
+.divide-line hr {
+    border: solid 1px grey;
+    color: grey;
+}
